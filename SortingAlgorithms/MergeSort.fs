@@ -11,4 +11,4 @@ module MergeSort =
         match list with
         | [] -> []
         | [ x ] -> [ x ]
-        | _ -> merge (sort list[..(list.Length / 2)]) (sort list[(list.Length / 2)..])
+        | _ -> merge (sort list[..(list.Length / 2) - 1]) (sort list[(list.Length / 2)..])
