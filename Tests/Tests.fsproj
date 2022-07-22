@@ -5,6 +5,7 @@
     <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="QuickSortTests.fs" />
     <Compile Include="MergeSortTests.fs" />
     <Compile Include="SelectSortTests.fs" />
     <Compile Include="BubbleSortTests.fs" />
