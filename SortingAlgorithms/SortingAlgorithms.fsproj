@@ -4,6 +4,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CountingSort.fs" />
     <Compile Include="HeapSort.fs" />
     <Compile Include="QuickSort.fs" />
     <Compile Include="MergeSort.fs" />
